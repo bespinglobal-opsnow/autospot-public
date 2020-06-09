@@ -21,6 +21,6 @@ sleep 600
 instanceid=$( curl http://169.254.169.254/latest/meta-data/instance-id )
 instance_signal=$( echo '{"instanceId" :  "'${instanceid}'",  "signal" : "INSTANCE_READY_TO_SHUTDOWN"}' )
 echo $instance_signal > instance_signal
-token="70a493f721747373800ff06c584ebc3c144473c04f78972ed87a3e2aeb97ca9c"
-accountId="act-ea1affeb"
+token=""
+accountId=""
 curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer ${token}" -d @instance_signal https://api.spotinst.io/aws/ec2/instance/signal?accountId=$accountId
