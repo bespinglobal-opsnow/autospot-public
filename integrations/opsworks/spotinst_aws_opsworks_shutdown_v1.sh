@@ -2,8 +2,8 @@
 OPSWORKS_STACK_TYPE=""
 OPSWORKS_STACK_ID=""
 OPSWORKS_LAYER_ID=""
-LOG_RECIPE='logging::run_script'
-SLEEP_RECIPE='timesleeper::dosleep60'
+LOG_RECIPE=''
+SLEEP_RECIPE=''
 if [ $OPSWORKS_STACK_TYPE == "CLASSIC" ]; then
     readonly OPSWORKS_ENDPOINT="us-east-1"
 else
