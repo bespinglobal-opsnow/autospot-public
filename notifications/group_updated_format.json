@@ -1,0 +1,26 @@
+{
+    "username": "AutoSpot",
+    "attachments": [
+        {
+            "color": "#DE9D2E",
+            "title": "event:%event%",
+            "title_link": "https://metering.opsnow.com/#/autospot",
+            "fields": [
+                {
+                    "title": "Elastigroup Id",
+                    "value": "%resource-id%",
+                    "short": true
+                },
+                {
+                    "title": "Elastigroup Name",
+                    "value": "%resource-name%",
+                    "short": true
+                }
+            ],
+            "mrkdwn_in": [
+                "text",
+                "pretext"
+            ]
+        }
+    ]
+}

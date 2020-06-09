@@ -1,0 +1,41 @@
+{
+    "username": "AutoSpot",
+    "attachments": [
+        {
+            "color": "#DE9D2E",
+            "title": "event:%event%",
+            "title_link": "https://metering.opsnow.com/#/autospot",
+            "fields": [
+                {
+                    "title": "Elastigroup Id",
+                    "value": "%resource-id%",
+                    "short": true
+                },
+                {
+                    "title": "Elastigroup Name",
+                    "value": "%resource-name%",
+                    "short": true
+                },
+                {
+                    "title": "Instance ID",
+                    "value": "%instance-id%",
+                    "short": true
+                },
+                {
+                    "title": "Subnet ID",
+                    "value": "%subnet-id%",
+                    "short": true
+                },
+                {
+                    "title": "Availability Zone",
+                    "value": "%availability-zone%",
+                    "short": true
+                }
+            ],
+            "mrkdwn_in": [
+                "text",
+                "pretext"
+            ]
+        }
+    ]
+}
