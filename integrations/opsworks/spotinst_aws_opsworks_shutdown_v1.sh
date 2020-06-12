@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo rm -rf /opt/aws/opsworks/current/bin/opsworks-agent-uninstaller
 OPSWORKS_STACK_TYPE=""
 OPSWORKS_STACK_ID=""
 OPSWORKS_LAYER_ID=""
