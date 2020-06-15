@@ -1,5 +1,5 @@
 #!/bin/bash
-# Elastigroup Scale Down 시 OpsWorks에서 실앻되는 OpsWorks Agent Uninstaller를 제거하여 OpsWorks Log 삭제를 방지.
+# Elastigroup Scale Down 시 OpsWorks에서 실행되는 OpsWorks Agent Uninstaller를 제거하여 OpsWorks Log 삭제를 방지.
 sudo rm -rf /opt/aws/opsworks/current/bin/opsworks-agent-uninstaller
 # Shutdown Script에 필요한 OPSWORKS STACK TYPE, STACK ID, LAYER ID 값을 설정
 # CLASSIC 또는 REGIONAL
